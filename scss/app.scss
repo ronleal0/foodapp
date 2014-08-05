@@ -1,3 +1,4 @@
+@import "assets";
 @import "settings";
 @import "foundation";
 
@@ -38,3 +39,36 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+
+.external{
+	background-color: $orange;
+}
+
+header{
+	a{
+			color: $subtlewhite;
+	}
+
+	li{
+		list-style: none;
+	}
+	ul{
+		overflow: hidden;
+		margin:0;
+	}
+
+	nav{
+		ul{
+			li{
+				a{
+					display:block;
+					float:left;
+					width: 23%;
+					text-align:center;
+					border: 1px solid lighten($orange,5%);
+				}
+			}
+		}
+	}
+}
